@@ -1,0 +1,56 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.container{
+    border: solid black;
+    width: 70%;
+    height: 600px;
+}
+
+.cookies-cont{
+    border: solid black;
+    background-color: black;
+    width: 300px;
+    margin: 20px;
+    border-radius: 20px;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+#x{
+    width: 20px;
+    color: white;
+    position: absolute;
+    right: 10px;
+    cursor: pointer;
+}
+#cookie{
+    width: 60px;
+    margin-top: 35px;
+    margin-left: 25px;
+}
+
+#text{
+    color: white;
+    font-size: 25px;
+    margin-top: 60px;
+    padding: 20px;
+    padding-bottom: 0;
+}
+
+button{
+    padding: 10px;
+    width: 80%;
+    font-size: 20px;
+    background-color: white;
+    border-radius: 10px;
+    margin-left: 20px;
+    margin-bottom: 40px;
+}
